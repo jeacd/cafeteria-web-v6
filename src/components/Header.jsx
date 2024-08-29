@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Salento.</Navbar.Brand>
+          <Navbar.Brand href="/">Salento.</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="cardapio">Cardápio</Nav.Link>
