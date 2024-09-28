@@ -8,8 +8,8 @@ import Home from './views/Home';
 import NoPage from './views/NoPage';
 import Login from './views/Login';
 import CardapioYupFormik from './views/CardapioYupFormik';
+import ClienteForm from './views/ClienteForm';
 
-// <<<<<<< HEAD
 const Router = createBrowserRouter([
   {
     path: "/",
@@ -28,24 +28,12 @@ const Router = createBrowserRouter([
         path: "login",
         element: <Login />,
       },
+      {
+        path: "clientes",
+        element: <ClienteForm />,
+      },
     ]
   }
 ]);
-// =======
-// function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout />}>
-//           <Route index element={<Home />} />
-//           <Route path="cardapio" element={<CardapioYupFormik />} />
-//           <Route path="login" element={<Login />} />
-//           <Route path="*" element={<NoPage />} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-// >>>>>>> 3e5c9e048ef583b12c0d690aadc65765d8a1697a
 
 export default Router;

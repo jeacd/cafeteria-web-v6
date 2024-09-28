@@ -1,0 +1,48 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "imagemUrl": "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "titulo": "Cookie",
+      "descricao": "Feito de cacau 100%.",
+      "valor": "10.0"
+    },
+    {
+      "id": "2",
+      "imagemUrl": "https://images.unsplash.com/photo-1624128082323-beb6b8b508db?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "titulo": "Patel de forno",
+      "descricao": "Feito com frango da Bom Todo.",
+      "valor": "5.0"
+    },
+    {
+      "id": "3",
+      "imagemUrl": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=2570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "titulo": "Suco de Laranja",
+      "descricao": "Feita com laranjas de colhetas tardias.",
+      "valor": "2.0"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "5r87",
+      "nome": "Titus",
+      "email": "titus@email.com",
+      "dataNascimento": "2001-05-28",
+      "cep": "83654970"
+    },
+    {
+      "id": "2b77",
+      "nome": "Clarie",
+      "email": "clarie@email.com",
+      "dataNascimento": "1999-09-19",
+      "cep": "65841358"
+    },
+    {
+      "id": "10cd",
+      "nome": "Judy",
+      "email": "judy@email.com",
+      "dataNascimento": "2009-09-01",
+      "cep": "15478932"
+    }
+  ]
+}
