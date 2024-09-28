@@ -10,9 +10,9 @@ const ClienteForm = () => {
 
   const schema = Yup.object().shape({
     nome: Yup.string().trim().min(3, minChar(3)).max(80).required(requiredMessage),
-    email: Yup.string().email().required(requiredMessage),
+    email: Yup.string().trim().email(<p style={{ color: 'red' }}>* Informe um email válido *</p>).required(requiredMessage),
     dataNascimento: Yup.date().required(requiredMessage),
-    cep: Yup.string().trim().min(8, minChar(8)).max(8).matches(/^\d{8}$/, 'Informe apenas números').required(requiredMessage)
+    cep: Yup.string().min(8, minChar(8)).matches(/^\d{8}$/, 'Informe apenas números').required(requiredMessage)
   });
 
   let [clientes, setClientes] = useState([]);
